@@ -1,0 +1,22 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "§dMo Tools §r(§6RP§r)",
+        "description": "RP for Mo Tools",
+        "uuid": "b04486f8-3f4c-4aa1-913e-973a6047a6",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "937c1f2b-ca8d-4c8c-b38a-9d3397b3b1",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "10c7ed43-e92c-4fee-b6f8-120900ad3a",
+            "version": [0, 0, 1]
+        }
+    ]
+}
