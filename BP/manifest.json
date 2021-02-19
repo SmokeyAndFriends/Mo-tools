@@ -1,0 +1,22 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "§dMo Tools §r(§6BP§r)",
+        "description": "BP for Mo Tools",
+        "uuid": "10c7ed43-e92c-4fee-b6f8-120900ad3a",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "3435f568-d45b-4d12-a35f-d76747bd52",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "b04486f8-3f4c-4aa1-913e-973a6047a6",
+            "version": [0, 0, 1]
+        }
+    ]
+}
