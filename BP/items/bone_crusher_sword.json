@@ -1,0 +1,49 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "sp:bone_crusher_sword"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 3600,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_damage": 2200
+			},r
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 9,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "sword"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": false,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 17
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 12
+					}
+				]
+			},
+			"minecraft:icon": {
+				"texture": "bone_crusher_sword"
+			},
+			"minecraft:display_name": {
+				"value": "Bone Crusher Sword"
+			},
+			"minecraft:weapon": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		},
+		"events": {}
+	}
+}

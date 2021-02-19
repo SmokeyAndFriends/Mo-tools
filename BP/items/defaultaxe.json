@@ -1,0 +1,105 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "sp:"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_damage": 1561
+			},
+			"minecraft:mining_speed": 1,
+			"minecraft:enchantable": {
+				"value": 24,
+				"slot": "axe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood', 'pumpkin', 'plant')"
+						},
+						"speed": 14
+					},
+					{
+						"block": "minecraft:chest",
+						"speed": 14
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 14
+					},
+					{
+						"block": "minecraft:crimson_hyphae"
+					},
+					{
+						"block": "minecraft:crimson_planks"
+					},
+					{
+						"block": "minecraft:stripped_crimson_hyphae"
+					},
+					{
+						"block": "minecraft:crimson_slab"
+					},
+					{
+						"block": "minecraft:crimson_door"
+					},
+					{
+						"block": "minecraft:crimson_button"
+					},
+					{
+						"block": "minecraft:warped_hyphae"
+					},
+					{
+						"block": "minecraft:warped_planks"
+					},
+					{
+						"block": "minecraft:stripped_warped_hyphae"
+					},
+					{
+						"block": "minecraft:warped_slab"
+					},
+					{
+						"block": "minecraft:warped_door"
+					},
+					{
+						"block": "minecraft:warped_button"
+					},
+					{
+						"block": "minecraft:warped_stem"
+					},
+					{
+						"block": "minecraft:stripped_warped_stem"
+					},
+					{
+						"block": "minecraft:crimson_stem"
+					},
+					{
+						"block": "minecraft:stripped_crimson_stem"
+					},
+					{
+						"block": "minecraft:bookshelf"
+					}
+				]
+			},
+			"minecraft:damage": 8,
+			"tag:minecraft:is_axe": {},
+			"minecraft:display_name": {
+				"value": "Bone Crusher Axe"
+			},
+			"minecraft:icon": {
+				"texture": "bone_crusher_axe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.axe"
+			},
+			"minecraft:weapon": {}
+		},
+		"events": {}
+	}
+}

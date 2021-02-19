@@ -1,0 +1,252 @@
+//bridge-file-version: #64
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "sp:"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_damage": 2400
+			},
+			"minecraft:mining_speed": 50,
+			"minecraft:damage": 8,
+			"minecraft:enchantable": {
+				"value": 4,
+				"slot": "pickaxe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+						},
+						"speed": 50
+					},
+					{
+						"block": "minecraft:ice"
+					},
+					{
+						"block": "minecraft:sandstone"
+					},
+					{
+						"block": "minecraft:netherite_block"
+					},
+					{
+						"block": "minecraft:basalt"
+					},
+					{
+						"block": "minecraft:polished_basalt"
+					},
+					{
+						"block": "minecraft:smooth_stone"
+					},
+					{
+						"block": "minecraft:bedrock"
+					},
+					{
+						"block": "minecraft:netherrack"
+					},
+					{
+						"block": "minecraft:end_stone"
+					},
+					{
+						"block": "minecraft:concrete"
+					},
+					{
+						"block": "minecraft:stonebrick"
+					},
+					{
+						"block": "minecraft:crimson_nylium"
+					},
+					{
+						"block": "minecraft:warped_nylium"
+					},
+					{
+						"block": "minecraft:quartz_ore"
+					},
+					{
+						"block": "minecraft:quartz_block"
+					},
+					{
+						"block": "minecraft:blackstone"
+					},
+					{
+						"block": "minecraft:polished_blackstone_bricks"
+					},
+					{
+						"block": "minecraft:chiseled_polished_blackstone"
+					},
+					{
+						"block": "minecraft:crying_obsidian"
+					},
+					{
+						"block": "minecraft:lodestone"
+					},
+					{
+						"block": "minecraft:respawn_anchor"
+					},
+					{
+						"block": "minecraft:polished_blackstone_pressure_plate"
+					},
+					{
+						"block": "minecraft:furnace"
+					},
+					{
+						"block": "minecraft:polished_blackstone_brick_stairs"
+					},
+					{
+						"block": "minecraft:blackstone_stairs"
+					},
+					{
+						"block": "minecraft:blackstone_wall"
+					},
+					{
+						"block": "minecraft:polished_blackstone_brick_wall"
+					},
+					{
+						"block": "minecraft:cracked_polished_blackstone_bricks"
+					},
+					{
+						"block": "minecraft:gilded_blackstone"
+					},
+					{
+						"block": "minecraft:blackstone_slab"
+					},
+					{
+						"block": "minecraft:blackstone_double_slab"
+					},
+					{
+						"block": "minecraft:polished_blackstone_brick_slab"
+					},
+					{
+						"block": "minecraft:polished_blackstone_stairs"
+					},
+					{
+						"block": "minecraft:polished_blackstone_brick_double_slab"
+					},
+					{
+						"block": "minecraft:polished_blackstone_slab"
+					},
+					{
+						"block": "minecraft:polished_blackstone_button"
+					},
+					{
+						"block": "minecraft:polished_blackstone_wall"
+					},
+					{
+						"block": "minecraft:light_weighted_pressure_plate"
+					},
+					{
+						"block": "minecraft:heavy_weighted_pressure_plate"
+					},
+					{
+						"block": "minecraft:hopper"
+					},
+					{
+						"block": "minecraft:dispenser"
+					},
+					{
+						"block": "minecraft:dropper"
+					},
+					{
+						"block": "minecraft:observer"
+					},
+					{
+						"block": "minecraft:enchanting_table"
+					},
+					{
+						"block": "minecraft:smoker"
+					},
+					{
+						"block": "minecraft:blast_furnace"
+					},
+					{
+						"block": "minecraft:white_glazed_terracotta"
+					},
+					{
+						"block": "minecraft:prismarine"
+					},
+					{
+						"block": "minecraft:anvil"
+					},
+					{
+						"block": "minecraft:iron_block"
+					},
+					{
+						"block": "minecraft:lapis_block"
+					},
+					{
+						"block": "minecraft:emerald_block"
+					},
+					{
+						"block": "minecraft:ancient_debris"
+					},
+					{
+						"block": "minecraft:chiseled_nether_bricks"
+					},
+					{
+						"block": "minecraft:cracked_nether_bricks"
+					},
+					{
+						"block": "minecraft:red_nether_brick"
+					},
+					{
+						"block": "minecraft:grindstone"
+					},
+					{
+						"block": "minecraft:diamond_block"
+					},
+					{
+						"block": "minecraft:shulker_box"
+					},
+					{
+						"block": "minecraft:undyed_shulker_box"
+					},
+					{
+						"block": "minecraft:nether_gold_ore"
+					},
+					{
+						"block": "minecraft:red_nether_brick_stairs"
+					},
+					{
+						"block": "minecraft:red_sandstone"
+					},
+					{
+						"block": "minecraft:chain"
+					},
+					{
+						"block": "minecraft:end_bricks"
+					},
+					{
+						"block": "minecraft:coral"
+					},
+					{
+						"block": "minecraft:coral_block"
+					},
+					{
+						"block": "minecraft:purpur_block"
+					},
+					{
+						"block": "minecraft:purpur_stairs"
+					}
+				]
+			},
+			"minecraft:display_name": {
+				"value": "defaultpickaxe"
+			},
+			"minecraft:icon": {
+				"texture": "defaultpickaxe"
+			},
+			"minecraft:weapon": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.pickaxe"
+			}
+		},
+		"events": {}
+	}
+}
